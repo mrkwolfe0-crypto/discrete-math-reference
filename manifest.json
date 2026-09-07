@@ -1,0 +1,12 @@
+{
+  "name": "Discrete Math Offline Reference",
+  "short_name": "Discrete Math",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f5f6f8",
+  "theme_color": "#1f2937",
+  "description": "Mobile-friendly offline reference companion for Discrete Mathematics: An Open Introduction, 4th Edition.",
+  "icons": [
+    {"src":"icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}
+  ]
+}

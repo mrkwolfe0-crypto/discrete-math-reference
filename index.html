@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#1f2937" />
+  <meta name="description" content="A simple mobile-friendly offline reference companion for Discrete Mathematics: An Open Introduction, 4th Edition." />
+  <link rel="manifest" href="manifest.json" />
+  <link rel="icon" href="icon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Discrete Math Reference</title>
+</head>
+<body>
+  <header class="app-header">
+    <button id="backBtn" class="icon-btn hidden" aria-label="Go back">←</button>
+    <div class="header-copy">
+      <h1 id="pageTitle">Discrete Math</h1>
+      <p id="pageSubtitle">Offline reference</p>
+    </div>
+    <button id="homeBtn" class="icon-btn" aria-label="Go home">⌂</button>
+  </header>
+
+  <main id="app" class="app-shell" tabindex="-1"></main>
+
+  <nav class="bottom-nav" aria-label="Main navigation">
+    <button data-route="home" class="nav-btn active"><span>⌂</span><small>Home</small></button>
+    <button data-route="search" class="nav-btn"><span>⌕</span><small>Search</small></button>
+    <button data-route="quick" class="nav-btn"><span>≡</span><small>Quick Ref</small></button>
+    <button data-route="about" class="nav-btn"><span>ⓘ</span><small>About</small></button>
+  </nav>
+
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

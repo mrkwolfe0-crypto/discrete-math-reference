@@ -1,0 +1,12 @@
+Discrete Math Offline Reference
+
+This companion is an adaptation/reference aid based on:
+Oscar Levin, Discrete Mathematics: An Open Introduction, 4th Edition.
+© 2013–2025 Oscar Levin.
+https://discrete.openmathbooks.org/
+
+The source work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0):
+https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+This adaptation is shared under the same CC BY-NC-SA 4.0 license.
+You may share and adapt it for noncommercial purposes provided attribution is given and adaptations are distributed under the same license.
